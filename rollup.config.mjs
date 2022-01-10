@@ -4,7 +4,7 @@ import typescript from 'typescript'
 
 const build = (format) => ({
   input: './src/index.ts',
-  output: {dir: `dist/${format}`, format: format, sourcemap: true},
+  output: {dir: `dist/${format}`, format: format},
   plugins: [ts({tsconfigOverride: {compilerOptions: {module: 'esnext'}}, typescript})],
 })
 
