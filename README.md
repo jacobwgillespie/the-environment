@@ -1,4 +1,9 @@
-# the-environment
+# 🌱 the-environment
+
+[![CI](https://github.com/jacobwgillespie/the-environment/actions/workflows/ci.yml/badge.svg)](https://github.com/jacobwgillespie/the-environment/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/dm/the-environment.svg)](https://www.npmjs.com/package/the-environment)
+[![npm](https://img.shields.io/npm/v/the-environment.svg)](https://www.npmjs.com/package/the-environment)
+![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
 
 Simple Node.js package for reading environment variables, TypeScript support included.
 
