@@ -24,7 +24,9 @@
     "lint": "prettier --check .",
     "prepack": "rm -rf dist && rollup -c",
     "test": "jest --coverage",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "type-check:tests": "tsc -p tsconfig.test.json",
+    "watch": "rollup -c -w"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.36",
